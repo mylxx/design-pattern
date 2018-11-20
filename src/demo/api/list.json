@@ -1,0 +1,36 @@
+[
+	{
+	"id": 1,
+	"name": "《js 面试题1》",
+	"price": 111,
+	"discount": 1
+},{
+	"id": 2,
+	"name": "《js 面试题2》",
+	"price": 222,
+	"discount": 1
+},
+{
+	"id": 3,
+	"name": "《js 面试题3》",
+	"price": 333,
+	"discount": 0
+},
+{
+	"id": 4,
+	"name": "《js 面试题4》",
+	"price": 444,
+	"discount": 0
+},{
+	"id": 5,
+	"name": "《js 面试题5》",
+	"price": 555,
+	"discount": 0
+}
+,{
+	"id": 6,
+	"name": "《js 面试题6》",
+	"price": 666,
+	"discount": 1
+}
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>事件代理</title>
+</head>
+<body>
+	<dvi id="div1">
+		<a href="#">a1</a>
+		<a href="#">a2</a>
+		<a href="#">a3</a>
+		<a href="#">a4</a>
+		<a href="#">a5</a>
+		<a href="#">a6</a>
+		<a href="#">a7</a>
+	</dvi>
+	<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.js"></script>
+	<script type="text/javascript">
+		// var div1 = document.getElementById("div1")
+		// div1.addEventListener('click', function(e){
+		// 	var target = e.target
+		// 	if(target.nodeName === 'A'){
+		// 		console.log(target.innerHtml)
+		// 	}
+		// })
+
+
+		$('#div1').click(function(){
+			setTimeout($.proxy(function(){
+				$(this).css('background', '#00f')
+			}, this), 1000)
+		})
+
+	</script>
+</body>
+</html>
